@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<script type="application/javascript" src="World.js"></script>
+		<script type="application/javascript" src="Ball.js"></script>
+		<script type="application/javascript" src="Wall.js"></script>
+		<script type="application/javascript" src="Spring.js"></script>
+		<script type="application/javascript" src="ForceCircle.js"></script>
+		<script type="application/javascript" src="ForceRect.js"></script>
+		<script type="application/javascript" src="TextBox.js"></script>
+		<script type="application/javascript" src="Goal.js"></script>
+		<script type="application/javascript" src="game.js"></script>
+		<!--
+		<style type="text/css">
+			canvas { 
+			  position: absolute;
+			  top: 0px;
+			  left: 0px;
+			}
+		</style>
+		-->
+	</head>
+	<body onload="init();" onkeydown="key_press(event);" onkeyup="key_up(event);">
+		<center>
+			<canvas id="canvas" onmousemove="mouse_move(event);" onclick="mouse_click(event);" onmousedown="mouse_down(event);" onmouseup="mouse_up(event);">
+				Your browser does not support the HTML5 canvas element.
+			</canvas>
+		</center>
+	</body>
+</html>
